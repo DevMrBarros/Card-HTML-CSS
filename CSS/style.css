@@ -1,0 +1,61 @@
+/* Importa a fonte Poppins do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Define a fonte padrão para o corpo do documento como Poppins */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Centraliza e alinha o conteúdo */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%; /* Largura total */
+  height: 100vh; /* Altura igual à altura da viewport (100% da altura da janela do navegador) */
+}
+
+/* Estiliza o card */
+.card {
+  background: #fff; /* Cor de fundo branca */
+  border-radius: 20px; /* Borda arredondada */
+  box-shadow: 0px 2px 23px #1422703a; /* Sombra */
+  width: 400px; /* Largura fixa do card */
+  margin: 0 10px; /* Margem de 10px à esquerda e à direita, 0 nas demais direções */
+}
+
+/* Define a imagem de fundo para o mediaCard */
+.mediaCard {
+  background: url("/IMG/mortalkombat2.jpeg") center/cover; /* Imagem de fundo centrada e ajustada para cobrir */
+  width: 100%;
+  height: 200px; /* Altura fixa da área de mídia */
+}
+
+/* Estiliza a parte superior do card */
+.topCard {
+  padding: 20px; /* Preenchimento interno de 20px em todos os lados */
+  padding-top: 0px; /* Remove o preenchimento superior */
+}
+
+/* Estiliza a parte inferior do card */
+.bottomCard {
+  padding: 20px; /* Preenchimento interno de 20px em todos os lados */
+}
+
+/* Estiliza os botões de ação */
+.actions {
+  border: none; /* Remove a borda */
+  background: none; /* Remove o fundo */
+}
+
+/* Estiliza os links dentro dos botões de ação */
+.link {
+  color: rgb(14, 154, 241); /* Cor do texto */
+  text-decoration: none; /* Remove a sublinhado */
+}
+
+/* Estiliza o título do card */
+.titleCard {
+  color: rgb(14, 154, 241); /* Cor do texto */
+}
